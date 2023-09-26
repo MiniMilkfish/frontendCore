@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Debounce && Throttle</title>
+</head>
+
+<body>
+    <div>
+        <input type="text" placeholder="input" />
+    </div>
+    <script>
+        // let oInput = document.querySelector("input");
+
+        // oInput.oninput = debounce(function() {
+        //     console.log(this.value)
+        // }, 1000);
+
+        // function debounce(func, delay) {
+        //     let t = null;
+        //     return function () {
+        //         let _this = this;
+        //         if (t !== null) clearTimeout(t);
+
+        //         t = setTimeout(() => func.call(this), delay)
+        //     }
+        // }
+
+        // function getName() {
+        //     var name = 'inner'
+        //     console.log(name) // print: inner
+        // }
+
+        // getName();
+
+        // console.log(name)  // print: ''
+        // console.log(nameA)
+
+        // console.log(a)
+        var a = 1;
+        function foo(a) {
+            // var a = 2;
+            console.log(a); // print: 2
+            var myFunction = (function () {
+                // var a = 3;
+                console.log(a); // print: 3
+            })();
+        }
+
+        function bar() {
+            var a = 4;
+            foo(a);
+        }
+
+        bar();
+
+
+    </script>
+</body>
+
+</html>
