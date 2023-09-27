@@ -1,6 +1,6 @@
 # 1 - JavaScript 是什么
 
-# 2 - JavaScript 有什么组成
+# 2 - JavaScript 由什么组成
 
 # 3 - 一切皆对象
 
