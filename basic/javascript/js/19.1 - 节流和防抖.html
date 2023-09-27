@@ -39,22 +39,15 @@
         // console.log(nameA)
 
         // console.log(a)
-        var a = 1;
-        function foo(a) {
-            // var a = 2;
-            console.log(a); // print: 2
-            var myFunction = (function () {
-                // var a = 3;
-                console.log(a); // print: 3
-            })();
-        }
 
-        function bar() {
-            var a = 4;
-            foo(a);
-        }
 
-        bar();
+        for (var i = 0; i < 5; i++) {
+            (function (j) {
+                setTimeout(function () {
+                    console.log(j)  // print: 5 5 5 5 5
+                })
+            })(i)
+        }
 
 
     </script>
