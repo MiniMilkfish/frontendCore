@@ -108,7 +108,7 @@ console.log(typeof myObject); // print: object
 console.log(typeof myArray); // print: object
 console.log(typeof myFunction);    // print: function
 console.log(typeof myDate) // print: object
-console.log(typeof myRexExp)   // print: object
+console.log(typeof myRegExp)   // print: object
 console.log(typeof myError)    // print: object
 ```
 
