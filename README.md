@@ -10,6 +10,8 @@
 
 ## case
 
+## static
+
 --- 
 
 ## `Git Commit Message-Standard`
@@ -32,6 +34,7 @@
   - `revert`：回滚到上一个版本
   - `merge`：代码合并
   - `sync`：同步主线或分支的Bug
+  - `static`: 静态媒体资源
   
 - ### `scope`（可选）：用于说明`commit` 影响的范围，如数据层、控制层、视图层等
 
