@@ -53,3 +53,8 @@
 # 27 - 事件循环机制
 
 # 28 - 前端存储方式及区别
+
+## 参考资料
+
+
+- [深入理解JavaScript](https://zhuanlan.zhihu.com/p/552619710) [知乎 Johan]
