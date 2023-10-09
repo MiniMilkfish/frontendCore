@@ -35,10 +35,17 @@ console.log(sym);   // print: Symbol('my description')
 - Symbol 生成的值作为属性或者方法的时候，一定要保存下来，否则后续无法使用
 - for 循环遍历对象的时候是无法遍历出 Symbol 的属性和方法的
 
-## 主要特征
+## 特征
 
-- 没有两个Symbols永远相等。即使两个Symbols具有相同的描述，他们也补相等
-- 对象键可以是Symbols。通常对象键只能是Symbols或字符串
+- 独一无二性
+  - 没有两个Symbols永远相等。即使两个Symbols具有相同的描述，他们也不相等
+- 不可变性
+  - Symbol值一旦创建，就不能被修改
+- 作为属性键
+  - 对象键可以是Symbols。通常对象键只能是Symbols或字符串
+  - 用于创建对象的私有属性或隐藏属性，以避免命名冲突
+- 隐藏性
+  - 使用Symbol 作为属性键，这些属性对于常规的对象遍历和操作是不可见的
 
 ```javascript
 const test = Symbol('test');
