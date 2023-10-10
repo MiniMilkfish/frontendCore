@@ -114,7 +114,7 @@ console.log(typeof myError)    // print: object
 
 ### instanceof
 
-用于监测构造函数的prototype 属性是否出现在某个实例对象的原型链上
+用于检测构造函数的prototype 属性是否出现在某个实例对象的原型链上
 
 ```javascript
 function People(name, age) {
@@ -123,8 +123,8 @@ function People(name, age) {
 }
 
 const elaine = new People('elaine', 23)
-console.log(elaine instanceof People)
-console.log(elaine instanceof Object)
+console.log(elaine instanceof People) // print: true
+console.log(elaine instanceof Object) // print: true
 ```
 
 ### constructor
