@@ -1,6 +1,10 @@
 # 10 - JavaScript 中的始皇
 
+> JavaScript 中现有 Object 还是现有 Function?
+
 ![Object Layout](/static/v2-4ce4503cf382c98f127671e0c29694ed_r.jpg)
+
+![原型链结构图](/static/dcd9f21f6457d284950b767e6f7bdea3_r.png)
 
 ```javascript
 Object instanceof Object;       // print: true
