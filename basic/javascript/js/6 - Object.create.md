@@ -78,3 +78,7 @@ obj 继承自 {name: 'foo'} 这个对象，至于F.prototype = {name: 'foo'}，�
 ## Object.create(null)
 
 创建一个没有任何继承痕迹的对象
+
+## 参考资料
+
+- [深入理解JavaScript](https://zhuanlan.zhihu.com/p/552619710) [知乎 @Johan 约翰]
