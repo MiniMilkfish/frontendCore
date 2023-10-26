@@ -84,3 +84,7 @@ BOM 主要针对浏览器窗口和子窗口
   - ECMAScript 6 草案发布
 - 2015.6
   - ECMAScript 6 正式发布，并且更名为 ECMAScript 2015
+
+## 参考资料
+
+- [深入理解JavaScript](https://zhuanlan.zhihu.com/p/552619710) [知乎 @Johan 约翰]
