@@ -94,3 +94,7 @@ Object instanceof Function;     // print: true
 Object.prototype 才是真正的始皇,任何原型都源自它
 
 而Function.prototype 仅此于 Object.prototype 的存在，它是内置构造函数的创建者，任何函数都源于它
+
+## 参考资料
+
+- [深入理解JavaScript](https://zhuanlan.zhihu.com/p/552619710) [知乎 @Johan 约翰]
