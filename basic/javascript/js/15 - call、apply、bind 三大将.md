@@ -127,4 +127,4 @@ bind 的三个特点：
 
 ## 参考资料
 
-- [深入理解JavaScript](https://zhuanlan.zhihu.com/p/552619710) [知乎 @Johan 约翰]
+- [深入理解JavaScript——call、apply、bind三大将](https://zhuanlan.zhihu.com/p/569442894) [知乎 @Johan 约翰]
