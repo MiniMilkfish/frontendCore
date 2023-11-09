@@ -253,4 +253,4 @@ function getType(target){
 
 ## 参考资料
 
-- [深入理解JavaScript](https://zhuanlan.zhihu.com/p/552619710) [知乎 @Johan 约翰]
+- [深入理解JavaScript——JavaScript 由什么组成](https://zhuanlan.zhihu.com/p/554854741) [知乎 @Johan 约翰]
