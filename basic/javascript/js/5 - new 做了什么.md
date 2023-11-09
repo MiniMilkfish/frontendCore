@@ -85,5 +85,5 @@ const user3 = new3(User, 'johnny', 'joestar');
 
 ## 参考资料
 
-- [深入理解JavaScript](https://zhuanlan.zhihu.com/p/552619710) [知乎 @Johan 约翰]
+- [深入理解JavaScript——new 做了什么](https://zhuanlan.zhihu.com/p/557764439) [知乎 @Johan 约翰]
 
