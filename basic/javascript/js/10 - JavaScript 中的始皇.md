@@ -97,4 +97,4 @@ Object.prototype 才是真正的始皇,任何原型都源自它
 
 ## 参考资料
 
-- [深入理解JavaScript](https://zhuanlan.zhihu.com/p/552619710) [知乎 @Johan 约翰]
+- [深入理解JavaScript——JavaScript 中的始皇](https://zhuanlan.zhihu.com/p/563967104) [知乎 @Johan 约翰]
