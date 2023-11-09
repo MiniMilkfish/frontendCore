@@ -81,4 +81,4 @@ obj 继承自 {name: 'foo'} 这个对象，至于F.prototype = {name: 'foo'}，�
 
 ## 参考资料
 
-- [深入理解JavaScript](https://zhuanlan.zhihu.com/p/552619710) [知乎 @Johan 约翰]
+- [深入理解JavaScript——Object.create](https://zhuanlan.zhihu.com/p/559527875) [知乎 @Johan 约翰]
