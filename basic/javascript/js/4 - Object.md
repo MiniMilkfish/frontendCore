@@ -98,4 +98,4 @@ Javascript 是一门基于原型的语言 ———— 每个对象拥有一个�
 
 ## 参考资料
 
-- [深入理解JavaScript](https://zhuanlan.zhihu.com/p/552619710) [知乎 @Johan 约翰]
+- [深入理解JavaScript——Object（对象）](https://zhuanlan.zhihu.com/p/556955018) [知乎 @Johan 约翰]
