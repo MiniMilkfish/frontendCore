@@ -65,7 +65,7 @@
 
 ### 立即执行函数不是闭包
 
-***立即执行函数不是闭包，但是它可以做出闭包效果***
+***<font color="#FF0000">立即执行函数不是闭包，但是它可以做出闭包效果</font>***
 
 IIFE 是立即执行函数，执行完就被垃圾回收了；而闭包是要利用作用域机制把控私有变量
 
@@ -99,9 +99,17 @@ console.log(Module.private); // print: undefined
         var name = "Jack";
         console.log('Hello ' + name);
     }
+
+    if(typeof sex === 'undefined') {
+        console.log("Goodbye " + sex);
+    } else {
+        let sex = "male";
+        console.log('Hello ' + sex);
+    }
 })();
 
 // print: Goodbye undefined
+// print: Hello male
 
 /**
  * 函数内有变量提升，即var name 被提升到函数顶部，且未赋值默认为 undefined，所以 typeof name === 'undefined' 成立
@@ -115,7 +123,7 @@ var _fn = function(){
     console.log(1)
 }
 
-(function(){
+var _func = (function(){
     var _fn = function(){
         console.log(2)
     }
@@ -139,15 +147,30 @@ var _fn = function(){
     var fn4 = obj.fn3;
     var fn5 = obj.fn2;
 
-    fn1();
-    obj.fn2();
-    obj.fn3();
-    fn4();
-    this.fn5();
+    fn1();          // print: 1
+    obj.fn2();      // print: 4
+    obj.fn3();      // print: 3
+    fn4();          // print: 1
+    this.fn5();     // print: this.fn5 is not a function
 })();
 ```
 
 #### 题 3
 
 ```javascript
+var liList = ul.getElementsByTagName('li');
+for (var i = 0; i < 6; i ++){
+    liList[i].onclick = function(){
+        alert(i);   // 为什么 alert 出来的总是 6，而不是0，1，2，3，4，5
+    };
+}
+
+/**
+ * 答案： 因为 i 是贯穿整个作用域的，而不是给每个 li 分配一个 i 
+ * 解决： 用 let 代替 var。或者是用 IIFES
+ */
 ```
+
+## 参考资料
+
+- [深入理解JavaScript——立即执行函数（IIFE）](https://zhuanlan.zhihu.com/p/572900581) [知乎 @Johan 约翰]
