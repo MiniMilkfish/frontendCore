@@ -237,4 +237,4 @@ call、apply 、bind 具有掰弯 this 指向的能力
 
 ## 参考资料
 
-- [深入理解JavaScript](https://zhuanlan.zhihu.com/p/552619710) [知乎 @Johan 约翰]
+- [深入理解JavaScript——this关键字](https://zhuanlan.zhihu.com/p/568731211) [知乎 @Johan 约翰]
