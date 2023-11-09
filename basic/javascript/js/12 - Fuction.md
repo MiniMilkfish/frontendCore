@@ -137,4 +137,4 @@ console.log(funcF(1, 2)); // print: 3
 
 ## 参考资料
 
-- [深入理解JavaScript](https://zhuanlan.zhihu.com/p/552619710) [知乎 @Johan 约翰]
+- [深入理解JavaScript——Function](https://zhuanlan.zhihu.com/p/566407461) [知乎 @Johan 约翰]
