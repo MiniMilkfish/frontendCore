@@ -87,4 +87,4 @@ BOM 主要针对浏览器窗口和子窗口
 
 ## 参考资料
 
-- [深入理解JavaScript](https://zhuanlan.zhihu.com/p/552619710) [知乎 @Johan 约翰]
+- [深入理解JavaScript——JavaScript 是什么](https://zhuanlan.zhihu.com/p/554435963) [知乎 @Johan 约翰]
