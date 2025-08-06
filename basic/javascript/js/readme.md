@@ -1,3 +1,5 @@
+### 0 - Tips 有关Javascripts的一切功能实例
+
 ### 1 - JavaScript 是什么
 
 ### 2 - JavaScript 由什么组成
@@ -57,3 +59,5 @@
 ### 29 - Symbol
 
 ### 30 - WeakMap
+
+### 31 - 0.1 + 0.2 !== 0.3
